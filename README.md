@@ -1,1 +1,1 @@
-# Mnist-Classification
+This has achieved a simple project of mnist numbers classification, the model contains a simple convolutional network and a vision transformer. The pre-trained models and training logs are in the file. 
