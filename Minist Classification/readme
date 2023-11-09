@@ -1,0 +1,12 @@
+1.model.py文件放模型,有一个卷积神经网络模型和一个ViT模型；
+  train.py文件用来训练模型，初始学习率为0.01，使用学习率调度，训练20轮；
+  test.py文件用测来试模型在测试集上准确率，并显示错误分类的原始图片，打印出正确类别和预测类别；
+  visualize.py文件用来可视化模型训练过程。
+
+2.wrong_example1图片是9，但模型误分为5；wrong_example2图片是4，的但型误分为2；wrong_example2图片是6，的但型误分为0。
+
+3.mynet_training_records.txt文件存放mynet模型训练过程，包括轮数和训练损失;
+  vit_training_records.txt文件存放vit模型训练过程，包括轮数和训练损失。
+
+4.预训练模型为mnist_mynet.pth，在测试集上精度为99.07%;
+  预训练模型为mnist_vit.pth，在测试集上精度为97.32%。
